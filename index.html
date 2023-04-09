@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Get Oldest Video from YouTube Channel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Get Oldest Video from YouTube Channel</h1>
+    <form>
+      <label for="channelLink">Enter Channel Link:</label>
+      <input type="text" id="channelLink" name="channelLink">
+      <button type="button" id="searchBtn">Search</button>
+    </form>
+    <div id="error"></div>
+    <div id="result"></div>
+  </div>
+  <script src="https://apis.google.com/js/client.js?onload=init"></script>
+  <script src="script.js"></script>
+</body>
+</html>
